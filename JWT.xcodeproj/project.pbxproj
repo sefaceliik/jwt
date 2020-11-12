@@ -16,6 +16,7 @@
 		26AA4027255D59FD00491FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AA4025255D59FD00491FC1 /* LaunchScreen.storyboard */; };
 		26AA4032255D59FD00491FC1 /* JWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4031255D59FD00491FC1 /* JWTTests.swift */; };
 		26AA403D255D59FD00491FC1 /* JWTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA403C255D59FD00491FC1 /* JWTUITests.swift */; };
+		26AA4056255D5EB800491FC1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4055255D5EB800491FC1 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		26AA4038255D59FD00491FC1 /* JWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AA403C255D59FD00491FC1 /* JWTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTUITests.swift; sourceTree = "<group>"; };
 		26AA403E255D59FE00491FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AA4055255D5EB800491FC1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				26AA4017255D59FA00491FC1 /* AppDelegate.swift */,
 				26AA4019255D59FA00491FC1 /* SceneDelegate.swift */,
 				26AA401B255D59FA00491FC1 /* ViewController.swift */,
+				26AA4055255D5EB800491FC1 /* TableViewController.swift */,
 				26AA401D255D59FA00491FC1 /* Main.storyboard */,
 				26AA4023255D59FD00491FC1 /* Assets.xcassets */,
 				26AA4025255D59FD00491FC1 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				26AA401C255D59FA00491FC1 /* ViewController.swift in Sources */,
 				26AA4022255D59FA00491FC1 /* JWT.xcdatamodeld in Sources */,
 				26AA4018255D59FA00491FC1 /* AppDelegate.swift in Sources */,
+				26AA4056255D5EB800491FC1 /* TableViewController.swift in Sources */,
 				26AA401A255D59FA00491FC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
