@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E00129C63FD08F662DC2539 /* Pods_JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672ABBB4EFF8B33C3504ED9B /* Pods_JWT.framework */; };
+		1D9192754DB725F3303DABCD /* Pods_JWT_JWTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514AC388741488CD92C8E1E9 /* Pods_JWT_JWTUITests.framework */; };
+		261D65FF255E00ED00F259B4 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D65FE255E00ED00F259B4 /* TableCell.swift */; };
+		261D6607255E07AD00F259B4 /* RevokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D6606255E07AD00F259B4 /* RevokeService.swift */; };
+		261D660C255E095A00F259B4 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D660B255E095A00F259B4 /* Items.swift */; };
 		26AA4018255D59FA00491FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4017255D59FA00491FC1 /* AppDelegate.swift */; };
 		26AA401A255D59FA00491FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4019255D59FA00491FC1 /* SceneDelegate.swift */; };
 		26AA401C255D59FA00491FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA401B255D59FA00491FC1 /* ViewController.swift */; };
@@ -16,7 +21,13 @@
 		26AA4027255D59FD00491FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AA4025255D59FD00491FC1 /* LaunchScreen.storyboard */; };
 		26AA4032255D59FD00491FC1 /* JWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4031255D59FD00491FC1 /* JWTTests.swift */; };
 		26AA403D255D59FD00491FC1 /* JWTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA403C255D59FD00491FC1 /* JWTUITests.swift */; };
-		26AA4056255D5EB800491FC1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4055255D5EB800491FC1 /* TableViewController.swift */; };
+		26AA406C255D6C8800491FC1 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA406B255D6C8800491FC1 /* TableController.swift */; };
+		26AA4080255DB62B00491FC1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA407F255DB62B00491FC1 /* Data.swift */; };
+		26AA4092255DBD4100491FC1 /* Authy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4091255DBD4100491FC1 /* Authy.swift */; };
+		26AA409A255DC09900491FC1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4099255DC09800491FC1 /* AuthService.swift */; };
+		26AA409F255DC2AA00491FC1 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA409E255DC2AA00491FC1 /* WeatherService.swift */; };
+		26AA40A7255DF87C00491FC1 /* RefreshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA40A6255DF87C00491FC1 /* RefreshService.swift */; };
+		CDA18759B1060783F0A72C3F /* Pods_JWTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C47939EB0FA6F6B9621131 /* Pods_JWTTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18842793830D73AE23994F31 /* Pods-JWTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTTests.release.xcconfig"; path = "Target Support Files/Pods-JWTTests/Pods-JWTTests.release.xcconfig"; sourceTree = "<group>"; };
+		261D65FE255E00ED00F259B4 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		261D6606255E07AD00F259B4 /* RevokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevokeService.swift; sourceTree = "<group>"; };
+		261D660B255E095A00F259B4 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 		26AA4014255D59FA00491FC1 /* JWT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AA4017255D59FA00491FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AA4019255D59FA00491FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +67,20 @@
 		26AA4038255D59FD00491FC1 /* JWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AA403C255D59FD00491FC1 /* JWTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTUITests.swift; sourceTree = "<group>"; };
 		26AA403E255D59FE00491FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26AA4055255D5EB800491FC1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		26AA406B255D6C8800491FC1 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		26AA407F255DB62B00491FC1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		26AA4091255DBD4100491FC1 /* Authy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authy.swift; sourceTree = "<group>"; };
+		26AA4099255DC09800491FC1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		26AA409E255DC2AA00491FC1 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		26AA40A6255DF87C00491FC1 /* RefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshService.swift; sourceTree = "<group>"; };
+		3CC8E2780B897A4FEBA90BBF /* Pods-JWT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWT.release.xcconfig"; path = "Target Support Files/Pods-JWT/Pods-JWT.release.xcconfig"; sourceTree = "<group>"; };
+		514AC388741488CD92C8E1E9 /* Pods_JWT_JWTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWT_JWTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		672ABBB4EFF8B33C3504ED9B /* Pods_JWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702AB826DD8C436AD245AA70 /* Pods-JWT-JWTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWT-JWTUITests.debug.xcconfig"; path = "Target Support Files/Pods-JWT-JWTUITests/Pods-JWT-JWTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD162AEE7A1B8F07CE4DCF6 /* Pods-JWT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWT.debug.xcconfig"; path = "Target Support Files/Pods-JWT/Pods-JWT.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C47939EB0FA6F6B9621131 /* Pods_JWTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D017E6C042F73012181ACF /* Pods-JWTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTTests.debug.xcconfig"; path = "Target Support Files/Pods-JWTTests/Pods-JWTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F022D5C816B47F0C149C0ED4 /* Pods-JWT-JWTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWT-JWTUITests.release.xcconfig"; path = "Target Support Files/Pods-JWT-JWTUITests/Pods-JWT-JWTUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E00129C63FD08F662DC2539 /* Pods_JWT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA18759B1060783F0A72C3F /* Pods_JWTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9192754DB725F3303DABCD /* Pods_JWT_JWTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033107A7737FF137F6CA4CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672ABBB4EFF8B33C3504ED9B /* Pods_JWT.framework */,
+				514AC388741488CD92C8E1E9 /* Pods_JWT_JWTUITests.framework */,
+				A0C47939EB0FA6F6B9621131 /* Pods_JWTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		26AA400B255D59F900491FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +128,8 @@
 				26AA4030255D59FD00491FC1 /* JWTTests */,
 				26AA403B255D59FD00491FC1 /* JWTUITests */,
 				26AA4015255D59FA00491FC1 /* Products */,
+				FE18394E46727AA187A11D12 /* Pods */,
+				033107A7737FF137F6CA4CD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +146,9 @@
 		26AA4016255D59FA00491FC1 /* JWT */ = {
 			isa = PBXGroup;
 			children = (
-				26AA4017255D59FA00491FC1 /* AppDelegate.swift */,
-				26AA4019255D59FA00491FC1 /* SceneDelegate.swift */,
-				26AA401B255D59FA00491FC1 /* ViewController.swift */,
-				26AA4055255D5EB800491FC1 /* TableViewController.swift */,
+				26AA40AF255DF99A00491FC1 /* View */,
+				26AA40AE255DF98100491FC1 /* Services */,
+				26AA40B0255DF9AC00491FC1 /* Model */,
 				26AA401D255D59FA00491FC1 /* Main.storyboard */,
 				26AA4023255D59FD00491FC1 /* Assets.xcassets */,
 				26AA4025255D59FD00491FC1 /* LaunchScreen.storyboard */,
@@ -134,6 +176,52 @@
 			path = JWTUITests;
 			sourceTree = "<group>";
 		};
+		26AA40AE255DF98100491FC1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				26AA4099255DC09800491FC1 /* AuthService.swift */,
+				26AA40A6255DF87C00491FC1 /* RefreshService.swift */,
+				261D6606255E07AD00F259B4 /* RevokeService.swift */,
+				26AA409E255DC2AA00491FC1 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		26AA40AF255DF99A00491FC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26AA4017255D59FA00491FC1 /* AppDelegate.swift */,
+				26AA4019255D59FA00491FC1 /* SceneDelegate.swift */,
+				26AA401B255D59FA00491FC1 /* ViewController.swift */,
+				26AA406B255D6C8800491FC1 /* TableController.swift */,
+				261D65FE255E00ED00F259B4 /* TableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26AA40B0255DF9AC00491FC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26AA407F255DB62B00491FC1 /* Data.swift */,
+				26AA4091255DBD4100491FC1 /* Authy.swift */,
+				261D660B255E095A00F259B4 /* Items.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE18394E46727AA187A11D12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AD162AEE7A1B8F07CE4DCF6 /* Pods-JWT.debug.xcconfig */,
+				3CC8E2780B897A4FEBA90BBF /* Pods-JWT.release.xcconfig */,
+				702AB826DD8C436AD245AA70 /* Pods-JWT-JWTUITests.debug.xcconfig */,
+				F022D5C816B47F0C149C0ED4 /* Pods-JWT-JWTUITests.release.xcconfig */,
+				A5D017E6C042F73012181ACF /* Pods-JWTTests.debug.xcconfig */,
+				18842793830D73AE23994F31 /* Pods-JWTTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AA4041255D59FE00491FC1 /* Build configuration list for PBXNativeTarget "JWT" */;
 			buildPhases = (
+				BA8E49E02D397C57328F857A /* [CP] Check Pods Manifest.lock */,
 				26AA4010255D59FA00491FC1 /* Sources */,
 				26AA4011255D59FA00491FC1 /* Frameworks */,
 				26AA4012255D59FA00491FC1 /* Resources */,
+				C2FB05B787A91CFAE65F01C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AA4044255D59FE00491FC1 /* Build configuration list for PBXNativeTarget "JWTTests" */;
 			buildPhases = (
+				5A8D4DE87909D0B58A05A1FA /* [CP] Check Pods Manifest.lock */,
 				26AA4029255D59FD00491FC1 /* Sources */,
 				26AA402A255D59FD00491FC1 /* Frameworks */,
 				26AA402B255D59FD00491FC1 /* Resources */,
@@ -176,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AA4047255D59FE00491FC1 /* Build configuration list for PBXNativeTarget "JWTUITests" */;
 			buildPhases = (
+				9D5BFB3F6E1E2AEAFAAD3656 /* [CP] Check Pods Manifest.lock */,
 				26AA4034255D59FD00491FC1 /* Sources */,
 				26AA4035255D59FD00491FC1 /* Frameworks */,
 				26AA4036255D59FD00491FC1 /* Resources */,
+				3456D2CDBA2DFC999903D337 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,16 +352,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3456D2CDBA2DFC999903D337 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWT-JWTUITests/Pods-JWT-JWTUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWT-JWTUITests/Pods-JWT-JWTUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWT-JWTUITests/Pods-JWT-JWTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8D4DE87909D0B58A05A1FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5BFB3F6E1E2AEAFAAD3656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWT-JWTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA8E49E02D397C57328F857A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FB05B787A91CFAE65F01C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWT/Pods-JWT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWT/Pods-JWT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWT/Pods-JWT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26AA4010255D59FA00491FC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26AA401C255D59FA00491FC1 /* ViewController.swift in Sources */,
+				26AA409F255DC2AA00491FC1 /* WeatherService.swift in Sources */,
+				26AA4080255DB62B00491FC1 /* Data.swift in Sources */,
 				26AA4022255D59FA00491FC1 /* JWT.xcdatamodeld in Sources */,
+				26AA4092255DBD4100491FC1 /* Authy.swift in Sources */,
 				26AA4018255D59FA00491FC1 /* AppDelegate.swift in Sources */,
-				26AA4056255D5EB800491FC1 /* TableViewController.swift in Sources */,
+				261D660C255E095A00F259B4 /* Items.swift in Sources */,
+				26AA406C255D6C8800491FC1 /* TableController.swift in Sources */,
+				261D65FF255E00ED00F259B4 /* TableCell.swift in Sources */,
 				26AA401A255D59FA00491FC1 /* SceneDelegate.swift in Sources */,
+				26AA409A255DC09900491FC1 /* AuthService.swift in Sources */,
+				26AA40A7255DF87C00491FC1 /* RefreshService.swift in Sources */,
+				261D6607255E07AD00F259B4 /* RevokeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +645,7 @@
 		};
 		26AA4042255D59FE00491FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD162AEE7A1B8F07CE4DCF6 /* Pods-JWT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +665,7 @@
 		};
 		26AA4043255D59FE00491FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC8E2780B897A4FEBA90BBF /* Pods-JWT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +685,7 @@
 		};
 		26AA4045255D59FE00491FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D017E6C042F73012181ACF /* Pods-JWTTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +708,7 @@
 		};
 		26AA4046255D59FE00491FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18842793830D73AE23994F31 /* Pods-JWTTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +731,7 @@
 		};
 		26AA4048255D59FE00491FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702AB826DD8C436AD245AA70 /* Pods-JWT-JWTUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +752,7 @@
 		};
 		26AA4049255D59FE00491FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F022D5C816B47F0C149C0ED4 /* Pods-JWT-JWTUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
