@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         let password = String(passwordField.text!)
         AuthService().downloadAuthy(username: username, password: password)
         RefreshService().downloadRefresh() // 401 hatasını almaya göre ayarlanacak
-        //WeatherService().downloadWeather()
+        //WeatherService().downloadWeather() // Error veriyor
         
         performSegue(withIdentifier: "toTableView", sender: nil)
     }

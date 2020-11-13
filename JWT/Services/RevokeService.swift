@@ -10,7 +10,7 @@ import Foundation
 class RevokeService{
     
     func revokeRefresh(){
-        var semaphore = DispatchSemaphore (value: 0)
+        let semaphore = DispatchSemaphore (value: 0)
 
         let parameters = "{\r\n    \"refreshToken\":\"\(Authy.sharedInstance.refreshToken)\"\r\n}"
         let postData = parameters.data(using: .utf8)
